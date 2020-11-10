@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "740154317865",
+    "firebase_url": "https://restaurantclient-b6f83.firebaseio.com",
+    "project_id": "restaurantclient-b6f83",
+    "storage_bucket": "restaurantclient-b6f83.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:740154317865:android:97e1623a90ea177ae49038",
+        "android_client_info": {
+          "package_name": "francoder.restaurant.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "740154317865-0499k97egkouu5q49h1ik0q9abh1m30r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyxx4aV-4UZclPeIvsf52P5MG2DX1onIE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "740154317865-0499k97egkouu5q49h1ik0q9abh1m30r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

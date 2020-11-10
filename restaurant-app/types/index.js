@@ -1,0 +1,6 @@
+export const GET_PRODUCTS = 'GET_PRODUCTS';
+export const SELECT_DISH = 'SELECT_DISH';
+export const CONFIRM_ORDER = 'CONFIRM_ORDER';
+export const SHOW_RESUME = 'SHOW_RESUME';
+export const DELETE_PRODUCT = 'DELETE_PRODUCT';
+export const ORDER_PLACED = 'ORDER_PLACED';

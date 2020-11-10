@@ -1,0 +1,54 @@
+{
+  "name": "restaurant-client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "firebase": "^8.0.0",
+    "formik": "^2.2.1",
+    "history": "^5.0.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-firebase-file-uploader": "^2.4.3",
+    "react-router": "^6.0.0-beta.0",
+    "react-router-dom": "^6.0.0-beta.0",
+    "react-scripts": "4.0.0",
+    "sweetalert2": "^10.9.1",
+    "web-vitals": "^0.2.4",
+    "yup": "^0.29.3"
+  },
+  "scripts": {
+    "start": "npm run watch:css && react-scripts start",
+    "build": "npm run build:css && react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "build:css": "postcss src/css/tailwind.css -o src/css/main.css",
+    "watch:css": "postcss src/css/tailwind.css -o src/css/main.css"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.0.1",
+    "postcss": "^8.1.4",
+    "postcss-cli": "^8.2.0",
+    "tailwindcss": "^1.9.6"
+  }
+}
